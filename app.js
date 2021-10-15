@@ -30,6 +30,12 @@ addForm.addEventListener("submit", (e) => {
   }
 });
 
+list.addEventListener("click", (e) => {
+  if (e.target.classList.contains("delete")) {
+    e.target.parentElement.remove();
+  }
+});
+
 document.querySelector(".source").addEventListener("click", function () {
   let audio = new Audio("assets/sound.mp3");
   audio.play();

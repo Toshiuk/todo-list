@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background: radial-gradient(circle, #ebb1a7 0%, #b2d2f7 100%);
@@ -44,6 +48,7 @@ input[type="text"]:focus {
   border: none;
   padding: 7px 5px;
   background: rgba(255, 255, 255, 0.4);
+  color: #444444;
 }
 
 ul {
