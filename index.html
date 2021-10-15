@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <header>
+          <h1>TO DO LIST</h1>
+          <form class="search">
+            <input
+              class="input"
+              type="text"
+              name="search"
+              placeholder="search"
+            />
+          </form>
+        </header>
+
+        <ul class="todos">
+          <li class="item">
+            <span>todo 1</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="delete"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </li>
+          <li class="item">
+            <span>todo 2</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="delete"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </li>
+          <li class="item">
+            <span>todo 2</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="delete"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </li>
+        </ul>
+
+        <form class="add">
+          <label class="add-label">Add a new todo</label>
+          <input class="add-input" type="text" name="add" />
+        </form>
+      </div>
+    </div>
+    <p class="source">
+      <img src="assets/image.png" class="img" /><br />
+      Lei &copy;
+    </p>
+    <script src="app.js"></script>
+  </body>
+</html>

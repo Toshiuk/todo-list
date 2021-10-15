@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: radial-gradient(circle, #ebb1a7 0%, #b2d2f7 100%);
+  background-attachment: fixed;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #444444;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.container {
+  width: 80vw;
+  max-width: 600px;
+  margin: 70px auto;
+}
+
+.box {
+  background-color: rgba(255, 245, 232, 0.15);
+  padding: 22px;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 10px 1px rgba(95, 95, 95, 0.05);
+}
+
+header {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  border: none;
+  max-width: 400px;
+  padding: 5px 5px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.delete {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-input {
+  flex-basis: 70%;
+}
+
+/** HIHIHI ***/
+.source {
+  text-decoration: none;
+  color: #636363;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  cursor: pointer;
+  text-align: right;
+}
+
+.img {
+  width: 110px;
+  display: none;
+  opacity: 0.85;
+}
