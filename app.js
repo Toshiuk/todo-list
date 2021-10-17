@@ -1,6 +1,8 @@
 const addForm = document.querySelector(".add");
 const list = document.querySelector(".todos");
 
+const defaultValues = ["buy milk", "buy pepsi", "cook pilk"];
+
 const generateTemplate = (todo) => {
   const html = `
     <li class="item">
@@ -20,6 +22,8 @@ const generateTemplate = (todo) => {
     </li>`;
   list.innerHTML += html;
 };
+
+defaultValues.forEach((item) => generateTemplate(item));
 
 addForm.addEventListener("submit", (e) => {
   e.preventDefault();
